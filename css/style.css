@@ -1,0 +1,998 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*-------------------HOME SECTION---------------------*/
+.container section {
+  padding: 80px 0px;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 80px;
+  background-color: gray;
+  overflow: hidden;
+  z-index: 100;
+  position: sticky;
+  opacity: 75%;
+  top: 0px;
+  box-shadow: 0px 3px 5px black;
+  width: 100%;
+}
+
+header .web-title {
+  float: left;
+  padding: 25px;
+  margin-right: 20%;
+  margin-left: 15%;
+}
+
+header .web-title a {
+  text-decoration: none;
+  color: #000;
+  text-shadow: 1px 1px 1px black;
+}
+
+header .web-title span {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+menu {
+  margin-top: 28px;
+}
+
+menu ul li {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  display: inline;
+  padding: 40px 15px;
+  text-shadow: 1px 1px 1px black;
+}
+
+menu .active a {
+  color: black;
+}
+
+menu .sign-up {
+  background-color: black;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+menu .sign-up:hover {
+  background-color: rgb(19, 18, 18);
+  transition: 0.5s;
+}
+
+menu ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+menu ul li a:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+menu .sign-up a:hover {
+  color: gray;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.content video {
+  margin-top: -6%;
+  width: 100%;
+  height: auto;
+  filter: brightness(40%);
+  z-index: -1;
+  position: relative;
+}
+
+.content button:hover {
+  background-color: rgb(165, 165, 165);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.content span {
+  color: black;
+}
+
+.content .Text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Text p {
+  color: whitesmoke;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.Text h1 {
+  color: whitesmoke;
+  font-size: 65px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.Text h1 span {
+  color: gray;
+  font-size: 65px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.Text button {
+  margin-top: 50px;
+  background-color: gray;
+  color: white;
+  padding: 13px 15px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+}
+
+/*---------------------ABOUT SECTION----------------------*/
+.program {
+  position: relative;
+}
+
+.program-title {
+  position: relative;
+}
+
+.program-title p {
+  text-align: center;
+  margin-top: 5px;
+  color: gray;
+}
+
+.program-title h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.program-title h1 span {
+  color: gray;
+}
+
+.program-title img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.column {
+  display: flex;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.program .column .left {
+  position: relative;
+  width: 100%;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.column .article {
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 99;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column .article:hover {
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
+  transition: 0.5s;
+}
+
+.column .article:hover img {
+  height: 152px;
+  transition: 0.5s;
+}
+
+.article a:hover {
+  color: rgb(61, 18, 3);
+  transition: 0.5s;
+  border-radius: 3px;
+}
+
+.program .column .right {
+  position: relative;
+  width: 100%;
+  margin-right: 20%;
+  margin-left: 5%;
+}
+
+.column img {
+  float: left;
+  margin-right: 30px;
+  width: auto;
+  height: 150px;
+  border-radius: 3px;
+}
+
+.column p {
+  text-align: justify;
+  color: rgb(82, 82, 82);
+  margin-bottom: 10px;
+}
+
+.column h1 {
+  margin-bottom: 10px;
+}
+
+.column a {
+  text-decoration: none;
+  color: rgb(233, 135, 135);
+}
+
+.marg {
+  position: relative;
+  margin-top: 30%;
+}
+
+/*----------------BANNER------------------*/
+
+#image-banner {
+  position: relative;
+}
+
+.member-banner {
+  position: relative;
+}
+
+.member-banner img {
+  width: 100%;
+  filter: brightness(30%);
+  position: relative;
+}
+.ban {
+  position: relative;
+}
+
+.member-banner .text-member {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.member-banner .text-member h1 {
+  color: whitesmoke;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.member-banner .text-member p {
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.member-banner .text-member button {
+  margin-top: 50px;
+  background-color: gray;
+  color: white;
+  padding: 13px 15px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+}
+
+.member-banner .text-member h1 span {
+  color: gray;
+  text-shadow: 2px 2px 5px black;
+}
+
+.member-banner .text-member button:hover {
+  background-color: rgb(165, 165, 165);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*-------------------CLASSES SECTION----------------------*/
+.training-class {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.training-class .column {
+  margin-bottom: 100px;
+}
+
+.training-class h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.training-class img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.training-class p {
+  text-align: center;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.training-class h1 span {
+  color: gray;
+}
+
+.training-class .left {
+  position: relative;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 2%;
+}
+
+.training-class .right {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  margin-right: 20%;
+}
+
+.training-class .right h1 {
+  text-align: left;
+}
+
+.training-class .right p {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 23px;
+  font-size: 18px;
+}
+
+.column ul li {
+  list-style: none;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.schedule-button {
+  margin-top: 50px;
+  background-color: gray;
+  color: white;
+  padding: 13px 15px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+}
+
+.schedule-button:hover {
+  background-color: rgb(165, 165, 165);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.training-class .right img {
+  width: 100%;
+  height: 50%;
+  border-radius: 4px;
+  position: relative;
+}
+
+.keterangan {
+  position: absolute;
+  padding: 20px 10px;
+  text-align: center;
+  width: 91%;
+  border-radius: 4px;
+  background-color: rgba(0, 60, 100, 0.8);
+  color: white;
+  opacity: 0%;
+}
+
+.training-class .right:hover .keterangan {
+  opacity: 100%;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.training-class .right:hover {
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+  transition: 0.5s;
+}
+
+.side-menu .schedule-button {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.training-class .side-menu {
+  width: 100%;
+  float: left;
+}
+
+.training-class .side-menu a {
+  font-size: 20px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+  padding-top: 20px;
+  padding-left: 20px;
+  display: inline-block;
+  border-radius: 4px;
+  width: 94%;
+}
+
+.training-class .side-menu p {
+  padding-top: 12px;
+}
+
+.training-class .side-menu img {
+  width: 50px;
+  height: auto;
+}
+
+.side-menu a.active p {
+  color: coral;
+}
+
+.side-menu a:hover {
+  background-color: rgb(212, 212, 212);
+  transition: 0.5s;
+}
+/*--------------------CLASSES SCHEDULE----------------------*/
+
+#SCHEDULES {
+  background-image: url("../img/pexels-william-choquette-1954524.jpg");
+  filter: brightness(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.classes-schedule {
+  display: flex;
+}
+
+.schedule-title {
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.classes-schedule span {
+  color: gray;
+}
+
+.days a.active {
+  color: coral;
+}
+
+.classes-schedule h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.classes-schedule p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.classes-schedule img {
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-bottom: 25px;
+}
+
+.days-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.days ul {
+  text-align: center;
+}
+
+.days ul li {
+  display: inline;
+  position: relative;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.days ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.days ul li a:hover {
+  transition: 0.3s ease-in;
+  color: coral;
+}
+
+.days ul li::after {
+  content: "/";
+  margin-left: 8px;
+  color: white;
+}
+
+.days ul li:last-child::after {
+  content: none;
+}
+.table-container {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+table {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+tbody {
+  display: table-row-group;
+}
+
+table,
+tr,
+td {
+  border: 1px solid white;
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-weight: 530;
+}
+
+/*----------------TRAINERS-----------------*/
+
+.trainers {
+  width: 100%;
+}
+
+.trainers h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.trainers span {
+  color: gray;
+}
+
+.trainers img {
+  margin-left: 49%;
+  margin-right: 50%;
+  margin-bottom: 20px;
+}
+
+.trainers p {
+  text-align: center;
+  color: gray;
+}
+
+.trainer-card {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.trainer-card .column:hover {
+  box-shadow: 0px 0px 8px rgb(133, 133, 133);
+  margin-top: 40px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+.trainer-card .column {
+  position: relative;
+  margin-right: 15px;
+  margin-left: 15px;
+  max-width: 33%;
+}
+
+.trainer-card .column .image img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px rgb(185, 185, 185);
+}
+
+.card .image {
+  position: relative;
+}
+
+.card .image .text {
+  position: absolute;
+  margin-top: 55%;
+  padding: 0px 5px;
+}
+
+.column:hover .image .text {
+  background-color: rgba(0, 60, 100, 0.6);
+}
+
+.column:hover .card .image h5 {
+  color: coral;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 20px;
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.column:hover .card .image p {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: white;
+  font-size: 16px;
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.card .text h5 {
+  color: coral;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 20px;
+  opacity: 0%;
+}
+
+.card .text p {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: white;
+  font-size: 16px;
+  opacity: 0%;
+}
+
+.card span {
+  color: gray;
+}
+
+.card h1 {
+  margin-top: 10px;
+}
+
+.icon img {
+  margin-top: 10px;
+  margin-right: 15px;
+  width: 16px;
+  height: auto;
+}
+
+.column .icon img:hover {
+  background-color: coral;
+  transition: 0.2s;
+}
+
+/*--------------------Contact Us-----------------*/
+
+.contact {
+  width: 100%;
+  display: flex;
+}
+
+.contact .kiri {
+  width: 100%;
+}
+
+.kanan {
+  display: flex;
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  padding: 80px;
+  background-image: url("../img/contact-bg.jpg");
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.form-container .kolom {
+  display: flex;
+}
+
+.kolom .left {
+  width: 100%;
+}
+.kolom .right {
+  width: 100%;
+}
+
+.form-container .kolom input {
+  width: 90%;
+  height: 45px;
+  color: gray;
+  padding-left: 10px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(156, 156, 156);
+  background-color: white;
+  line-height: 40px;
+  outline: none;
+}
+
+.form-container input {
+  color: gray;
+  padding-left: 10px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(156, 156, 156);
+  background-color: white;
+  width: 95%;
+  height: 45px;
+  outline: none;
+}
+
+form textarea {
+  width: 95%;
+  height: 125px;
+  line-height: 40px;
+  padding-left: 10px;
+  color: gray;
+  font-size: 13px;
+  border: 1px solid rgb(156, 156, 156);
+  background-color: white;
+  margin-bottom: 30px;
+  resize: none;
+}
+
+.form-button button:hover {
+  background-color: rgb(165, 165, 165);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.form-button button {
+  background-color: gray;
+  color: white;
+  padding: 13px 15px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+}
+
+/*-------------------Biodata--------------------*/
+
+.container-bio {
+  margin-left: 42%;
+  margin-right: 42%;
+  margin-top: 50px;
+}
+
+.container-bio img:hover {
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.8);
+
+  transition: 0.5s;
+}
+
+.container-bio img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container-bio h1 {
+  text-align: center;
+  font-size: 32px;
+  text-align: left;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container-bio p {
+  padding-left: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/*------------------Footer----------------------*/
+
+footer a {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 50px;
+  text-decoration: none;
+}
+
+footer p a {
+  text-decoration: none;
+  color: gray;
+}
+
+footer p a:hover {
+  color: coral;
+  transition: 0.5s;
+}
+
+footer p.special {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: none;
+}
+
+/*---------------------UTS------------------------*/
+.title-app {
+  text-align: center;
+  border-bottom: 1px solid red;
+  margin: 0% 30%;
+}
+
+.title-app h1 {
+  margin-bottom: 10px;
+}
+
+.content-app {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.content-app p {
+  margin-bottom: 5px;
+}
+
+.form-input {
+  margin-top: 50px;
+}
+
+.form-input input {
+  color: rgb(156, 156, 156);
+  padding-left: 10px;
+  margin-bottom: 40px;
+  margin: 0px 20px;
+  height: 45px;
+  outline: none;
+  border: 1px solid rgb(196, 194, 194);
+  background-color: white;
+}
+
+.form-input select {
+  color: gray;
+  padding-left: 10px;
+  padding-right: 80px;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin: 0px 20px;
+  height: 45px;
+  outline: none;
+  box-shadow: -1px -1px 3px rgb(24, 24, 24);
+}
+
+.application-button button {
+  margin-top: 50px;
+  background-color: red;
+  color: white;
+  padding: 13px 80px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 50px;
+}
+
+.bottom-button button.Live {
+  margin-top: 50px;
+  background-color: rgb(14, 102, 3);
+  color: white;
+  padding: 20px 80px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0px 10px;
+  background: linear-gradient(#3a6, #274);
+}
+
+.bottom-button button.Download {
+  margin-top: 50px;
+  background-color: rgb(65, 65, 204);
+  background: linear-gradient(#39c, #259);
+  color: white;
+  padding: 20px 80px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.bottom-button button.Screenshot {
+  margin-top: 50px;
+  background-color: gray;
+  color: white;
+  padding: 20px 80px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.bottom-button button.Script {
+  margin-top: 50px;
+  background-color: gray;
+  color: white;
+  padding: 23px 80px;
+  border: none;
+  opacity: 80%;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0px 10px;
+}
+
+.bottom-button {
+  background-color: rgb(226, 226, 226);
+  padding: 30px 0px;
+  margin: 0% 15%;
+}
+
+.content-app button:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
